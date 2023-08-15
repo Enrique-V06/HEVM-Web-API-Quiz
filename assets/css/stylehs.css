@@ -1,0 +1,73 @@
+:root{
+    --c1: rgb(31 36 36);
+    --c2: #dc3545;
+    font-family: 'Raleway', 'Roboto Slab', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--c1);
+}
+
+    a {
+        color: #333;
+        text-decoration: unset;
+    }
+header {
+    color: var(--c2);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.container{
+    color: var(--c1);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#container1.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#container2.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start center;
+}
+
+.res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.user_score{
+    color: (var(--c2));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+div.Start {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+div.btn-group-toggle{
+    display: flex;
+    align-items: center;   
+}
